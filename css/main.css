@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -22,14 +22,16 @@ section {
 
 h1 {
   text-align: center;
+  padding-bottom: .15em;
+  padding-top: .10em;
 }
 
 img {
   display: block;
-  width: 100px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: .75rem;
+  padding-bottom: 1.5rem;
 }
 
 .columns {
@@ -39,6 +41,7 @@ img {
 .columns div {
   width: 25%;
   padding: .5em;
+  padding-bottom: .75em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -67,7 +70,7 @@ img {
 
 p {
   margin: 0;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.75rem;
 }
 
 h2 {
@@ -81,7 +84,7 @@ h3 {
   font-style: italic;
 }
 
-a {
+.btn {
   text-align: left;
   padding: .5em;
   text-decoration: none;
@@ -92,8 +95,16 @@ a {
   color: #fff;
 }
 
-a:hover {
+.btn-small {
+  font-size: 1em;
+}
+
+.btn:hover {
   border: 1px solid #000;
   background-color: #000;
   color: #fff;
+}
+
+.card img {
+  width: 100px;
 }
