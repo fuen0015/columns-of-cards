@@ -75,7 +75,7 @@ p {
 
 h2 {
   margin: 0;
-  font-size: .875rem;
+  font-size: 1rem;
 }
 
 h3 {
@@ -86,7 +86,7 @@ h3 {
 
 .btn {
   text-align: left;
-  padding: .5em;
+  padding: .3em;
   text-decoration: none;
   list-style-type: none;
   border: 1px solid #333;
