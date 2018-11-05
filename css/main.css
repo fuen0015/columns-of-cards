@@ -22,8 +22,8 @@ section {
 
 h1 {
   text-align: center;
-  padding-bottom: .15em;
-  padding-top: .1em;
+  padding-bottom: .13em;
+  margin-bottom: 0;
 }
 
 img {
@@ -36,12 +36,12 @@ img {
 
 .columns {
   display: flex;
+  padding: 1.5rem;
 }
 
 .columns div {
   width: 25%;
-  padding: .5em;
-  padding-bottom: .75em;
+  padding: .75em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,6 +50,8 @@ img {
 
 .columns p {
   flex-grow: 1;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .columns div:nth-child(1) {
@@ -66,11 +68,6 @@ img {
 
 .columns div:nth-child(4) {
   background-color: #999;
-}
-
-p {
-  margin: 0;
-  padding-bottom: 1.75rem;
 }
 
 h2 {
@@ -96,7 +93,7 @@ h3 {
 }
 
 .btn-small {
-  font-size: 1em;
+  font-size: .9em;
 }
 
 .btn:hover {
